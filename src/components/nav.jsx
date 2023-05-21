@@ -4,6 +4,7 @@ import { useUser } from '@/context/loginState'
 import axios from 'axios';
 import Cookies from 'js-cookie';
 import { useRouter } from 'next/navigation';
+import logo from './logo.png';
 const Nav = () => {
     const { user, login, logout, loading } = useUser();
     const router = useRouter();
@@ -99,7 +100,7 @@ const Nav = () => {
     };
     return (
         <div className='flex bg-white  h-20 items-center p-4 shadow-md justify-between'>
-            <div className='text-2xl font-semibold'>Turing Technologies </div>
+            <img src={logo} alt='Logo' className='h-8 w-auto mr-2' />
             <div className='bg-blue-700 p-5 h-6 border cursor-pointer flex items-center justify-center text-white text-md px-6 font-medium' onClick={handleLogout} >{user?"Log Out":" "}</div>
         </div>
     )
