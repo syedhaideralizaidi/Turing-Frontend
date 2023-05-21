@@ -36,5 +36,10 @@ Check out our [Next.js deployment](https://turing-orpin.vercel.app/).
 ## Loom Video
 Find out the loom video to understand code and see the deployment here at [Loom Video](https://www.loom.com/share/75abac6e751a43b38fa9ed0699549e43)
 
-##Deploy on Netlify
+## Deploy on Netlify
 Check out my deployment on netlify here at [Netlify Deploy](https://646a48ea5a3234140c2ea461--classy-griffin-cd726a.netlify.app/)
+
+## Bonuses Implemented
+-> Use Next.js
+-> Deploy your application to Netlify
+
