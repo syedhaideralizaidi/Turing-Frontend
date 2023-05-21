@@ -100,7 +100,7 @@ const Nav = () => {
     };
     return (
         <div className='flex bg-white  h-20 items-center p-4 shadow-md justify-between'>
-            <img src={logo} alt='Logo' className='h-8 w-auto mr-2' />
+            <div className='text-2xl font-semibold'> Turing Technologies </div>
             <div className='bg-blue-700 p-5 h-6 border cursor-pointer flex items-center justify-center text-white text-md px-6 font-medium' onClick={handleLogout} >{user?"Log Out":" "}</div>
         </div>
     )
